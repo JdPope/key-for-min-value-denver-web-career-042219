@@ -7,5 +7,6 @@ name_hash.collect do |key, value|
 if value<name_hash[key_with_lowest]
   key_with_lowest = key
 end
+end
 return key_with_lowest
 end
